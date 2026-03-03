@@ -1,169 +1,75 @@
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cyber-Pro Services | Transcription & Captioning</title>
-<meta name="description" content="Cyber-Pro Services provides accurate transcription, editing and captioning services. Based in Canada.">
-
-<style>
-:root{
-  --accent:#3E8799;
-  --text:#1b2f35;
-  --bg:#f4f8f9;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-}
-
-.container{
-  max-width:900px;
-  margin:40px auto;
-  padding:30px;
-  background:white;
-  border-radius:10px;
-  box-shadow:0 6px 20px rgba(0,0,0,0.05);
-}
-
-h1{
-  margin:0;
-  font-size:30px;
-}
-
-.slogan{
-  color:var(--accent);
-  font-style:italic;
-  margin-top:5px;
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+   <title>Cyber-Pro Services: Transcription, Editing & Captioning Services</title><p class="slogan">Where Every Word Matters!</p>
+  <meta name="description" content="Cyber-Pro Services: Accurate, fast transcription across legal, court proceedings, medical, podcast, YouTube captions, Academic/Resarch Interviews and business audio." />
+   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%233E8799'/%3E%3Ctext x='50' y='58' font-family='Helvetica, Arial, sans-serif' font-size='44' text-anchor='middle' fill='white'%3ECP%3C/text%3E%3C/svg%3E">
+  <style>
+    /* Simple, elegant single-file stylesheet */
+    :root{
+      --accent:#3E8799;
+      --bg:#f7fbfc;
+      --text:#12323b;
+      --maxw:900px;
+      font-family: "Helvetica", "Arial", sans-serif;
+    }
+     .slogan{
   font-size:18px;
+  font-style:italic;
+  margin-top:4px;
+  color:var(--accent);
 }
-
-.logo{
-  background:var(--accent);
-  color:white;
-  width:70px;
-  height:70px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  border-radius:12px;
-  font-weight:bold;
-  font-size:22px;
-}
-
-header{
-  display:flex;
-  align-items:center;
-  gap:20px;
-}
-
-section{
-  margin-top:25px;
-}
-
-button{
-  background:var(--accent);
-  color:white;
-  border:none;
-  padding:10px 16px;
-  border-radius:6px;
-  cursor:pointer;
-}
-
-footer{
-  margin-top:30px;
-  font-size:14px;
-  color:#6a7d83;
-  text-align:center;
-}
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    .wrap{max-width:var(--maxw);margin:40px auto;padding:28px;background:white;border-radius:12px;box-shadow:0 8px 30px rgba(18,50,59,0.06)}
+    header{display:flex;gap:18px;align-items:center}
+    .logo{width:72px;height:72px;border-radius:12px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:24px;letter-spacing:1px}
+    h1{margin:0;font-size:24px}
+    p.lead{color:#4a6a73;font-size:15px;margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 340px}}
+    .card{padding:16px;border-radius:10px;border:1px solid rgba(16,50,56,0.06);background:#ffffff}
+    .samples pre{white-space:pre-wrap;background:#f1f6f8;padding:14px;border-radius:8px;font-size:14px;border:1px solid #e2edf1}
+    .contact input,.contact textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #d7edef;font-size:14px}
+    .btn{background:var(--accent);color:white;padding:11px 16px;border-radius:8px;border:none;font-weight:600;cursor:pointer;transition:all 0.2s ease}
+    .btn:hover{background:#2f6f7f}
+    footer{margin-top:24px;text-align:center;color:#6b8a93;font-size:13px}
+    .small{font-size:13px;color:#567679}
+    .badges{display:flex;gap:8px;flex-wrap:wrap}
+    a.ghost{color:var(--accent);text-decoration:none}
 </style>
 </head>
-
 <body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden>CPS</div>
+      <div>
+        <h1>Cyber-Pro Services: Transcription, Editing & Captioning Services</h1>
+      
+        <p class="small">Based in Canada 🇨🇦</p>
+        <p class="lead">Accurate, fast human-reviewed transcripts, fast turnaround, secure handling. Audio and video. Over 10 years experience. Satisfaction guaranteed!</p>
+      </div>
+    </header>
 
-<div class="container">
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>What we offer:</h2>
+          <ul>
+            <li>Verbatim &amp; clean verbatim transcription</li>
+            <li>Speaker ID, timestamps, time-coded captions (SRT/VTT)</li>
+            <li>Specialized transcription: legal, court proceedings, medical, finance, podcasts, YouTube captions, interviews, academic and research interviews</li>
+           <li>Over 10 years transcription experience</li>
+           </li> <li>Confidentiality &amp; NDAs available on request. Confidentiality is our priority.</li>
+          </ul>
+          <h3>Samples</h3>
+          <div class="samples">
+            <strong>Interview (clean verbatim)</strong>
+            <pre>Interviewer: Welcome back. Today we have Dr. Nguyen to talk about climate adaptation.
+Dr. Nguyen: Thanks — it's great to be here. The key is resilient infrastructure and community planning.</pre>
 
-<header>
-<div class="logo">CPS</div>
-<div>
-<h1>Cyber-Pro Services</h1>
-<p class="slogan">Where Every Word Matters!</p>
-<p>Based in Canada 🇨🇦</p>
-</div>
-</header>
-
-   115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
-163
-164
-165
-166
-167
-168
-169
-170
-171
-172
-173
-174
-175
-176
-177
-178
-179
-180
-181
-182
-183
-<html lang="en">
+            <strong>Medical (redacted)</strong>
             <pre>Patient: I've had persistent headaches for two weeks.
 Clinician: We'll schedule an MRI and follow up on medication history.</pre>
 
@@ -228,9 +134,4 @@ Clinician: We'll schedule an MRI and follow up on medication history.</pre>
     });
   </script>
 </body>
-
 </html>
-
-
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc
