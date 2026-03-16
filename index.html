@@ -137,48 +137,86 @@ Clinician: We'll schedule an MRI and follow up on medication history.</pre>
           </ol>
          </section>
       </main>
-      <aside class="card contact">
-        <h2>Contact / Get a quote</h2>
-        <!-- Replace the form action with your Formspree endpoint OR use Netlify forms (see comments) -->
-        <!-- To use Formspree: sign up at https://formspree.io, create a form and replace the action URL below -->
-        <form id="contactForm" action="https://formspree.io/f/mreawpja" method="POST">
-          <label class="small">Your name</label>
-          <input type="text" name="name" required placeholder="Jane Doe">
-          <label class="small">Email</label>
-          <input type="email" name="email" required placeholder="you@domain.com">
-          <label class="small">Service needed</label>
-          <input type="text" name="service" placeholder="Podcasts / Medical / Legal">
-          <label class="small">Message / upload links</label>
-          <textarea name="message" rows="5" placeholder="Short description, length, deadline"></textarea>
-          <input type="hidden" name="_subject" value="New enquiry from cyberproservices.com">
-          <button class="btn" type="submit">Send inquiry</button>
-        </form>
+     <aside class="card contact">
+
+<h2>Contact / Get a quote</h2>
+
+<form id="contactForm" action="https://formspree.io/f/mreawpja" method="POST">
+
+<label class="small">Your name</label>
+<input type="text" name="name" required placeholder="Jane Doe">
+
+<label class="small">Email</label>
+<input type="email" name="email" required placeholder="you@domain.com">
+
+<label class="small">Service needed</label>
+<input type="text" name="service" placeholder="Podcasts / Medical / Legal">
+
+<label class="small">Message / upload links</label>
+<textarea name="message" rows="5" placeholder="Short description, length, deadline"></textarea>
+
+<input type="hidden" name="_subject" value="New enquiry from cyberproservices.com">
+
+<button class="btn" type="submit">Send inquiry</button>
+
+</form>
+
 <br>
-        <p class="small" style="margin-top:10px"><br><b></b>Prefer direct email? Click link or image!</b> <p style="text-align:center;">
-  <strong>Email: <a href="mailto:cyberproservices.com@gmail.com"></strong>
-  cyberproservices.com@gmail.com
+
+<p class="small" style="text-align:center;">
+Prefer direct email? Click the link or image below.
+</p>
+
+<p style="text-align:center;">
+<strong>
+<a href="mailto:cyberproservices.com@gmail.com">
+cyberproservices.com@gmail.com
 </a>
-      </br>
-        
-         <a href="mailto:cyberproservices.com@gmail.com">
-  <img src="My%20photo%20on%20website.png" 
-       alt="Cyber-Pro Services" 
-       width="300">
+</strong>
+</p>
+
+<p style="text-align:center;">
+<a href="mailto:cyberproservices.com@gmail.com">
+<img src="My%20photo%20on%20website.png"
+alt="Cyber-Pro Services"
+width="300">
+</a>
+</p>
+
+<h3>Portfolio Samples</h3>
+
+<div class="badges">
+
+<a class="ghost" href="PortfolioSample1h.pdf" target="_blank">
+Portfolio Sample 1 – Legal Transcript
 </a>
 
+<br>
 
-  <div class="badges">
-          <a class="ghost" href="PortfolioSample1h.pdf"">Portfolio Sample 1- Legal Transcript</a>
-          <a class="ghost" href="French_Interview_Transcript_Sample1.pdf">Portfolio Sample 2 - French Interview Transcript</a> <p class="small">*All personal and identifying information has been removed or redacted to protect client confidentiality.*</p>
-      <br> <section class="card" style="margin-top:12px">
- 
-  <h2>BLOG POST</h2>
-<img src="Court.jpg" 
-     alt="Why Accuracy Is Critical in Court Cases" 
-     width="270"
-     style="display:block;margin:auto;margin-bottom:15px;">
-  <p class="small"><em>Blog Date: March 16, 2026</em></p>
-<section class="card" style="margin-top:12px">
+<a class="ghost" href="French_Interview_Transcript_Sample1.pdf" target="_blank">
+Portfolio Sample 2 – French Interview Transcript
+</a>
+
+</div>
+
+<p class="small">
+*All personal and identifying information has been removed or redacted to protect client confidentiality.*
+</p>
+
+</aside>
+
+</div>
+
+<section class="card" style="margin-top:20px">
+
+<h2>Blog Post</h2>
+
+<img src="Court.jpg"
+alt="Why Accuracy Is Critical in Court Cases"
+width="270"
+style="display:block;margin:auto;margin-bottom:15px;">
+
+<p class="small"><em>Blog Date: March 16, 2026</em></p>
 
 <h4>Why Accuracy Is Critical in Court Cases</h4>
 
@@ -195,7 +233,9 @@ Errors such as misidentified speakers, missing words, incorrect punctuation,
 or inaccurate timestamps can create confusion and weaken the reliability of
 the written record.
 </p>
+
 <details>
+
 <summary style="cursor:pointer; color:#3E8799; font-weight:600;">
 Read More
 </summary>
@@ -210,22 +250,25 @@ legal terminology can lead to mistakes if a transcript is not carefully checked.
 At <strong>Cyber-Pro Services</strong>, every transcript undergoes careful
 human review to ensure accuracy, proper speaker identification, and clear formatting.
 </p>
-</details>
-</section>
-    <footer></div>
-      <div class="small">© 2026 Cyber-Pro Services. All rights reserved.</div>
-    </footer>
-  </div>
 
-  <script>
-    // Small client-side enhancement: warn user to replace Formspree action
-    const form = document.getElementById('contactForm');
-    form.addEventListener('submit', e => {
-      if (form.action.includes('your-form-id')){
-        alert('Please replace the form action URL with your Formspree form endpoint before deploying.');
-      }
-    });
-  </script>
+</details>
+
+</section>
+
+<footer style="text-align:center; margin-top:30px;">
+  <div class="small">© 2026 Cyber-Pro Services. All rights reserved.</div>
+</footer>
+
+</div>
+
+<script>
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', e => {
+    if (form.action.includes('your-form-id')){
+      alert('Please replace the form action URL with your Formspree form endpoint before deploying.');
+    }
+  });
+</script>
+
 </body>
 </html>
-
