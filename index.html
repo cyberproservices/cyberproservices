@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cyber-Pro Services | Professional Transcription and Word Processing Services</title>
+
   <meta name="author" content="Cynthia Ohenhen">
   <meta name="keywords" content="transcription services Canada, cyber-pro, cyber pro, cynthia, ohenhen, legal transcription, medical transcription, podcast transcription, captioning, word processing services">
   <meta name="geo.region" content="CA-ON">
@@ -94,16 +95,15 @@
     }
 
     header{
-  display:flex;
-  gap:18px;
-  align-items:flex-start;
-  flex-wrap:wrap;
-}
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+      flex-wrap:wrap;
+    }
 
-.logo{
-  flex:0 0 300px;
-  max-width:300px;
-  margin:0;
+    .logo{
+  max-width:600px;
+  margin:0 auto 10px auto;
   text-align:center;
 }
 
@@ -112,74 +112,129 @@
   height:auto;
   display:block;
   border-radius:8px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    h1{
+      margin:0;
+      font-size:24px;
+    }
 
-.intro-text{
-  flex:1 1 0;
-  min-width:0;
-}
+    h2, h3, h4{
+      margin-top:0;
+    }
 
-@media (min-width:760px){
-  .grid{
-    grid-template-columns:minmax(0,1fr) 340px;
-  }
-}
+    .slogan{
+      font-size:18px;
+      font-style:italic;
+      margin-top:4px;
+      color:var(--accent);
+    }
 
-@media (max-width:759px){
-  .wrap{
-    margin:14px;
-    padding:16px;
-  }
+    p.lead{
+      color:#4a6a73;
+      font-size:15px;
+      margin-top:6px;
+    }
 
-  header{
-    display:block;
-    text-align:center;
-  }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:18px;
+      margin-top:18px;
+      align-items:start;
+    }
 
-  .logo{
-    width:100%;
-    max-width:100%;
-    margin:0 auto 14px auto;
-  }
+    @media (min-width:760px){
+      .grid{
+        grid-template-columns:minmax(0,1fr) 340px;
+      }
+    }
 
-  .intro-text{
-    text-align:left;
-  }
+    .card{
+      padding:16px;
+      border-radius:10px;
+      border:1px solid rgba(16,50,56,0.06);
+      background:#ffffff;
+    }
 
-  h1{
-    font-size:22px;
-  }
+    .samples pre{
+      white-space:pre-wrap;
+      overflow-wrap:break-word;
+      background:#f1f6f8;
+      padding:14px;
+      border-radius:8px;
+      font-size:14px;
+      border:1px solid #e2edf1;
+    }
 
-  .slogan{
-    font-size:17px;
-  }
+    .contact input,
+    .contact textarea{
+      width:100%;
+      padding:10px;
+      border-radius:8px;
+      border:1px solid #d7edef;
+      font-size:14px;
+      margin-bottom:10px;
+    }
 
-  .card{
-    padding:14px;
-  }
+    .btn{
+      background:var(--accent);
+      color:white;
+      padding:11px 16px;
+      border-radius:8px;
+      border:none;
+      font-weight:600;
+      cursor:pointer;
+      transition:all 0.2s ease;
+      width:100%;
+    }
 
-  .blog-card p{
-    font-size:17px;
-  }
+    .btn:hover{
+      background:#2f6f7f;
+    }
 
-  .samples pre{
-    font-size:13px;
-  }
+    footer{
+      margin-top:24px;
+      text-align:center;
+      color:#6b8a93;
+      font-size:13px;
+    }
 
-  .blog-image{
-    float:none !important;
-    display:block;
-    width:100%;
-    max-width:100%;
-    margin:0 0 12px 0;
-  }
+    .small{
+      font-size:13px;
+      color:#567679;
+    }
 
-  .profile-photo{
-    width:100%;
-    max-width:300px;
-  }
-}
+    .badges{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+
+    a{
+      color:var(--accent);
+      text-decoration:none;
+      word-break:break-word;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
+    .flag-inline{
+      display:inline-block;
+      width:20px;
+      vertical-align:middle;
+    }
+
+    .profile-photo{
+      width:300px;
+      max-width:100%;
+      margin:0 auto;
+      border-radius:8px;
+    }
+
     .blog-image{
       width:270px;
       max-width:100%;
@@ -245,9 +300,11 @@
           Based in Canada. Serving clients across Canada and internationally.
           <img src="https://flagcdn.com/ca.svg" class="flag-inline" alt="Canada Flag">
         </p>
+
         <p class="lead">
           Your trusted source for accurate, fast human-reviewed transcripts. Experienced in both audio and video transcripts. Types of projects include legal, podcasts, YouTube captions, minutes, academic and research interviews, business meetings, court proceedings and more.
         </p>
+
         <h2>About us:</h2>
         <p>
           Cyber-Pro Services was originally established in 2015. After a period dedicated to family caregiving responsibilities, the business has recently resumed operations, bringing over 10 years of transcription experience to new clients. The company website was rebuilt
@@ -388,8 +445,7 @@ Testimonials coming soon.
       <h2>Blog Post:</h2>
 <h4 style="color:#000;">Why Accuracy Is Critical in Court Cases</h4>
       <p class="small"><em> March 16, 2026</em></p>
-     <img src="Court.jpg" alt="Why Accuracy Is Critical in Court Cases" class="blog-image" style="float:left; margin:0 15px 10px 0; width:220px; max-width:100%;">
-     
+     <img src="Court.jpg" alt="Why Accuracy Is Critical in Court Cases" class="blog-image" style="float:left; margin:0 15px 10px 0; width:220px;">
       <p class="small">Did you know? Legal proceedings rely on precise documentation of spoken words. In court cases,
         depositions, witness statements, and recorded legal discussions, small transcription errors can change the meaning of legal statements. Accurate transcripts are critical for court and documentation purposes.
 </p>
