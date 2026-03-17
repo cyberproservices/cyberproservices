@@ -145,28 +145,12 @@ box-shadow:0 4px 12px rgba(0,0,0,0.08);
       margin-top:18px;
       align-items:start;
     }
-.logo {
-  max-width: 100%; /* make logo take full width on small screens */
-  margin: 0 auto 10px auto;
-  text-align: center;
-}
 
-.logo img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-
-
-    @media (max-width: 679px) {
-  .logo {
-    width: 100%; /* adjust this value as needed */
-    margin: 0 auto 110px auto;
-  }
-}
+    @media (min-width:760px){
+      .grid{
+        grid-template-columns:minmax(0,1fr) 340px;
+      }
+    }
 
     .card{
       padding:16px;
@@ -310,7 +294,7 @@ box-shadow:0 4px 12px rgba(0,0,0,0.08);
   <div class="wrap">
     <header>
       <div class="logo">
-  <img src="logo5.jpg" alt="Cyber-Pro Services logo">
+  <img src="logo.jpg" alt="Cyber-Pro Services logo">
 </div>
 
       <div class="intro-text">
